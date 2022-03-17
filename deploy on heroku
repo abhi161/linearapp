@@ -1,0 +1,20 @@
+create env
+install req
+intialize ur project as git project
+    > There is no extension for this Procfile
+        P should be capital inside this type- web: guniorn app:app
+    > now need to make git intialize
+        git init  (terminal inside the folder where ur project is) this to intialize local git
+    > now add all the files in git
+        git add .  (start tracking all files)
+    > now commit 
+        git commit -m "intial commit"  (now whatever is there keep a copy of these file with u)
+            if u amke any changes to file then need to again commmit
+            git commit -m "steps added" 
+            sudo snap install --classic heroku
+    >now create heroku app
+        heroku create
+    > git remote -v
+        this gives two URLs & if i want to push something from application i can use these
+    > git push heroku master
+        This will push all on cloud.
